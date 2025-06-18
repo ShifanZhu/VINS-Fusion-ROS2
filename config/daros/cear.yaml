@@ -8,7 +8,7 @@ num_of_cam: 1
 imu_topic: "/imu_topic"
 image0_topic: "/rgb_topic"
 # image1_topic: "/recording/image"
-output_path: "/home/s/data/cear/indoor/mocap1_well-lit_trot/algo_pose"
+output_path: "/home/s/data/cear/indoor/mocap1_blinking_trot/algo_pose/VINS-Fusion1.txt"
 
 cam0_calib: "realsense_rgb.yaml"
 # cam1_calib: "cam1_mei.yaml"
@@ -68,7 +68,7 @@ acc_n: 1.5336016728761148e-02          # accelerometer measurement noise standar
 gyr_n: 6.6783448149032164e-04         # gyroscope measurement noise standard deviation.     
 acc_w: 1.3421852900125284e-04        # accelerometer bias random work noise standard deviation.  
 gyr_w: 2.6068719029534757e-06       # gyroscope bias random work noise standard deviation.     
-g_norm: 9.85007     # gravity magnitude 9.85007
+g_norm: 9.81     # gravity magnitude 9.85007
 
 # acc_n: 0.0013860267737474954          # accelerometer measurement noise standard deviation. 
 # gyr_n: 5.6169965387912694e-05         # gyroscope measurement noise standard deviation.     
